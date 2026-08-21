@@ -1,0 +1,560 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "69b823fd-c065-40ff-9bb9-c5835555f3eb")
+	(paper "A4")
+	(title_block
+		(title "ECE 445L Lab7")
+		(date "2025-01-13")
+		(rev "v1.0.0")
+		(company "The University of Texas at Austin")
+	)
+	(lib_symbols
+		(symbol "ECE445L:MountingHole"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ECE445L:MountingHole_4_40"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Drill hole for 4-40 screw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_1_1"
+				(pin free non_logic
+					(at 0 0 180)
+					(length 3.81)
+					(name "Hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:MountingHole")
+		(at 272.415 38.735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c519b4b-3136-445d-ac30-4880eb655763")
+		(property "Reference" "H4"
+			(at 268.605 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 268.605 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 272.415 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.415 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 272.415 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599bad64-021c-487e-8969-dc6f76bf6855")
+		)
+		(instances
+			(project "Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:MountingHole")
+		(at 272.415 23.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92ac0c24-4f7f-47ea-8044-2f9af8415a7e")
+		(property "Reference" "H1"
+			(at 268.605 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 268.605 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 272.415 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.415 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 272.415 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6669966-01df-42e5-bc80-846cbcc9446c")
+		)
+		(instances
+			(project ""
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:MountingHole")
+		(at 272.415 28.575 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da103fb7-862f-4c87-b05a-1369690e4702")
+		(property "Reference" "H2"
+			(at 268.605 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 268.605 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 272.415 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.415 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 272.415 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b63cabe6-21c9-4c57-816d-c98151e36686")
+		)
+		(instances
+			(project "Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:MountingHole")
+		(at 272.415 33.655 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb3dbf6a-ca47-4016-a7c7-20ca501ddfe6")
+		(property "Reference" "H3"
+			(at 268.605 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 268.605 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:MountingHole_4_40"
+			(at 272.415 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.415 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill hole for 4-40 screw"
+			(at 272.415 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08fee980-d525-4e2c-8502-073a651410c6")
+		)
+		(instances
+			(project "Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 25.4)
+		(size 196.85 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 0 1.0000)
+		)
+		(uuid "120cc903-6d6c-4a77-ad9c-c9f63dede169")
+		(property "Sheetname" "Lab7_power"
+			(at 38.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lab7_power.kicad_sch"
+			(at 38.1 46.9396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 169.545 102.87)
+		(size 35.56 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "9e7b1dfa-492f-407a-9f72-cee77954c346")
+		(property "Sheetname" "Lab7_wifi"
+			(at 169.545 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lab7_wifi.kicad_sch"
+			(at 169.545 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.055 63.5)
+		(size 40.005 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "a500a078-11dc-409b-bff9-a8c35e1dabf8")
+		(property "Sheetname" "Lab7_Output"
+			(at 186.055 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lab7_Output.kicad_sch"
+			(at 186.055 83.7696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.775 74.295)
+		(size 45.72 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "c4445928-c95f-4ef5-82c7-58ae1ba9c5bb")
+		(property "Sheetname" "Lab7_microcontroller"
+			(at 104.775 73.5834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lab7_microcontroller.kicad_sch"
+			(at 104.775 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 70.485)
+		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "e9432827-5ece-4de0-90fe-13c05c5c04a5")
+		(property "Sheetname" "Lab7_Input"
+			(at 39.37 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lab7_Input.kicad_sch"
+			(at 39.37 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

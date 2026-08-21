@@ -1,0 +1,41 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Backup files since we are using version controll
+**/ECE319K_Starter-backups/*.zip
+**/ECE445L_Starter-backups/*.zip
+**/ECE445L_Lab6-backups/*.zip
+**/ECE445L_Lab7-backups/*.zip
+**/ECE445L_RSLK_V2-backups/*.zip
+
+# Mac specific dump file
+*.DS_Store
